@@ -2,7 +2,7 @@ import "../styles/Movies.css";
 import React, { useEffect, useState } from "react";
 import { GoSearch } from "react-icons/go";
 
-import NoImg from "../img/NoImage.jpg";
+import NoImg from "../../public/static/images/NoImage.jpg";
 import axios from "axios";
 
 const TvShows = () => {
